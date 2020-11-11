@@ -89,7 +89,7 @@
                 $mobile=$_POST['U_mobile'];
                 $file=$_POST['U_file'];
 
-                $connection = mysqli_connect('localhost','root','',php);
+                $connection = mysqli_connect('localhost','root','',my_project);
                 if($connection)
                 {
                     $create_query = "INSERT INTO crud(user_name,user_email,user_password,user_education,user_gender,user_dob,user_mobile,user_file) VALUES('$name','$email','$password','$education','$gender','$dob','$mobile','$file')";

@@ -35,7 +35,7 @@
    
    
     <?php
-     $connection = mysqli_connect('localhost','root','','php');
+     $connection = mysqli_connect('localhost','root','','my_project');
 
      if($connection)
      {
